@@ -1,0 +1,41 @@
+<assembly
+        xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.3"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.3 http://maven.apache.org/xsd/assembly-1.1.3.xsd">
+    <id>install</id>
+
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+
+    <fileSets>
+        <fileSet>
+            <directory>${project.build.directory}/enreg-front</directory>
+            <outputDirectory>/static_resources</outputDirectory>
+            <fileMode>0640</fileMode>
+            <directoryMode>0750</directoryMode>
+        </fileSet>
+        <fileSet>
+            <directory>${basedir}/src/main/assembly/conf</directory>
+            <outputDirectory>/conf</outputDirectory>
+            <fileMode>0640</fileMode>
+            <directoryMode>0750</directoryMode>
+        </fileSet>
+        <fileSet>
+            <directory>${basedir}/src/main/assembly/html</directory>
+            <outputDirectory>/dist</outputDirectory>
+            <fileMode>0640</fileMode>
+            <directoryMode>0750</directoryMode>
+        </fileSet>
+        <fileSet>
+            <directory>${basedir}/src/main/frontend/dist/enreg</directory>
+            <outputDirectory>/dist</outputDirectory>
+            <fileMode>0640</fileMode>
+            <directoryMode>0750</directoryMode>
+        </fileSet>
+    </fileSets>
+
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <includeSiteDirectory>false</includeSiteDirectory>
+
+</assembly>

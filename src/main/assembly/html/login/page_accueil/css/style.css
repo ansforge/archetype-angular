@@ -1,0 +1,61 @@
+
+.connexion-au-portail {
+  color: #FFFFFF;
+  font-family: "Bebas Neue";
+  text-align: center;
+}
+
+.connexion-au-portail-titre {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text {
+	font-weight: 500;
+	font-family: Roboto;
+	font-size: 20px;
+	letter-spacing: 0;
+	line-height: 28px;
+}
+
+#header {
+	background-image: url("../img/headerBG.jpg");
+}
+
+.boutton-connexion {
+  background-color: #B5004F;
+  font-family: Roboto;
+  width: 50%;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+
+  bottom: -20px;
+  position: absolute;
+  margin:0 auto;
+  left:0;
+  right:0;
+}
+
+
+.fc_button {
+	height: 60px;
+	width: 230px;
+	background-image: url("../img/franceconnect-bouton.png");
+}
+
+.fc_button:hover {
+	background-image: url("../img/franceconnect-bouton-hover.png");
+}
+
+.background {
+	background-color: #FCFCFE;
+}
+
+.box {
+	background-color: #FFFFFF;
+	box-shadow: 0 0 20px 0 rgba(25,111,170,0.1);
+	border-radius: 5px;
+}
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="18px" viewBox="0 0 22 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>09C57E2C-DBE3-4EE3-8B6F-6BAECEAA4D5B</title>
+    <defs>
+        <path d="M19.0000859,0 C20.6523706,0 22.0000859,1.34771525 22.0000859,3 L22.0000859,15 C22.0000859,16.6522847 20.6523706,18 19.0000859,18 L3.00008586,18 C1.34780111,18 8.58622516e-05,16.6522847 8.58622516e-05,15 L8.58622516e-05,3 C8.58622516e-05,1.34771525 1.34780111,0 3.00008586,0 L19.0000859,0 Z M20,4.92 L11.5735482,10.8192319 C11.2292281,11.060256 10.7709437,11.060256 10.4266235,10.8192319 L10.4266235,10.8192319 L2,4.921 L2.00008586,15 C2.00008586,15.5477153 2.45237061,16 3.00008586,16 L19.0000859,16 C19.5478011,16 20.0000859,15.5477153 20.0000859,15 L20,4.92 Z M19.0000859,2 L3.00008586,2 C2.61208728,2 2.27197793,2.22696691 2.10661548,2.55404305 L11.0000859,8.77934444 L19.8935562,2.55404305 C19.7281938,2.22696691 19.3880844,2 19.0000859,2 Z" id="path-1"></path>
+    </defs>
+    <g id="Artboards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ASSETS" transform="translate(-266.000000, -524.000000)">
+            <g id="ICONES-FONCTIONNELLES" transform="translate(201.000000, 428.000000)">
+                <g id="02.Icons/Functionnal/Mail" transform="translate(65.000000, 96.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#343852" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
